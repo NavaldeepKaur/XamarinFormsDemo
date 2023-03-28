@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FirstXamarinApp.Rendering"
+             xmlns:view="clr-namespace:FirstXamarinApp.Views"
+             x:Class="FirstXamarinApp.Views.LoginPageView" NavigationPage.HasNavigationBar="{OnPlatform iOS=true,Android=false}">
+    <ContentPage.Content>
+        <ScrollView>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" Orientation="Vertical" IsEnabled="{Binding IsMain,Mode=TwoWay}" VerticalOptions="FillAndExpand"  Spacing="{OnPlatform iOS=20,Android=12}" Margin="10">
+                <Label HorizontalTextAlignment="Center"  FontSize="Large" Margin="0,30,0,0" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="TAPWorkflow" TextColor="Black"/>
+                            <Span Text="Automation" TextColor="#6DCAD8"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <StackLayout VerticalOptions="CenterAndExpand" Margin="10,0"  Orientation="Vertical" Spacing="5" Padding="0" HorizontalOptions="CenterAndExpand">
+                    <Label Text="Username" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black"/>
+                    <Frame  HasShadow="false" BorderColor="{Binding BackgroundColorBtn1,Mode=TwoWay}" CornerRadius="5" Margin="0,5,0,0" HorizontalOptions="FillAndExpand" Padding="2">
+                        <local:CustomEntry 
+                             HorizontalTextAlignment="Start" TranslationY="{OnPlatform Android=2}" 
+                             FontSize="15" Text="{Binding UserNameText}"
+                             HeightRequest="40"  Margin="{OnPlatform Android=0,iOS=0}"
+                             Placeholder="Username" VerticalOptions="CenterAndExpand"
+                             Keyboard="Email" MaxLength="40"
+                             TextColor="Black"
+                             WidthRequest="250">
+                    </local:CustomEntry>
+                    </Frame>
+                    <Label Text="Password" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black"/>
+                    <Frame  HasShadow="false" BorderColor="{Binding PasswodFrame,Mode=TwoWay}" CornerRadius="5" Margin="0,5,0,0" HorizontalOptions="FillAndExpand" Padding="2">
+                        <Grid  HeightRequest="40" WidthRequest="250" RowSpacing="0"> 
+                            <local:CustomEntry 
+                                 HorizontalTextAlignment="Start"  
+                                 FontSize="15" TranslationY="{OnPlatform Android=2}"
+                                 MaxLength="20" VerticalOptions="CenterAndExpand"
+                                 IsPassword="{Binding IsPassword,Mode=TwoWay}" Margin="{OnPlatform Android=0,iOS=0}"
+                                 HeightRequest="40" Text="{Binding PasswordText}" 
+                                 Placeholder="Password"
+                                 TextColor="Black" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="9"></local:CustomEntry>
+                           
+                        </Grid> 
+                    </Frame>
+                    <Label Text="{Binding AlertMessage,Mode=TwoWay}" WidthRequest="250" TextColor="Red" IsVisible="{Binding LoginAlert, Mode=TwoWay}"/>
+
+ <local:Checkbox IsVisible="true" Margin="0,40,0,0" Text="Agree to Terms and Conditions" Checked="{Binding TermsChecked}"/>
+                   <Label Text="Please agree to terms and conditions." TextColor="Red" IsVisible="{Binding TermsAlert,Mode=TwoWay}" ></Label>
+                        <!--<Label Text="Agree to Terms and Conditions" Margin="0,40,0,0" TextDecorations="Underline" HorizontalOptions="Center" TextColor="Gray">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ForgetCommand}" NumberOfTapsRequired="1" />
+                        </Label.GestureRecognizers>
+                    </Label>-->
+
+
+                   
+                </StackLayout>
+                <Button Text="Sign In" TextColor="White" HorizontalOptions="Center" BackgroundColor="#0065C5" 
+                        VerticalOptions="Center" CornerRadius="8" Command="{Binding SignInCommand}"
+                        WidthRequest="100" HeightRequest="40" Margin="0,0,0,40"/>
+            </StackLayout>
+            <StackLayout IsVisible="{Binding IsLoading}" Padding="12" BackgroundColor="Transparent"
+                         AbsoluteLayout.LayoutFlags="PositionProportional"
+                         AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1">
+               <ActivityIndicator IsRunning="{Binding IsLoading}" Color ="#6DCAD8"/>
+               <Label Text="Loading..." HorizontalOptions="Center" TextColor="#6DCAD8"/>
+           </StackLayout>
+        </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

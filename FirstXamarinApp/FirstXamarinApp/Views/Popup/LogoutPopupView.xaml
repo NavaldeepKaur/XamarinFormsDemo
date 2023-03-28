@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             x:Class="FirstXamarinApp.Views.Popup.LogoutPopupView" NavigationPage.HasNavigationBar="false" 
+             BackgroundColor="#80000000" Opacity="0.5">
+    <pages:PopupPage.Animation>
+    <animations:ScaleAnimation 
+      PositionIn="Center" PositionOut="Center" ScaleIn="1.2"
+      ScaleOut="0.8" DurationIn="400" DurationOut="300" EasingIn="SinOut"
+      EasingOut="SinIn" HasBackgroundAnimation="True" />
+    </pages:PopupPage.Animation>
+    <AbsoluteLayout BackgroundColor="Transparent" Padding="0" Margin="0" VerticalOptions="Center" HorizontalOptions="Center">
+      <Frame HasShadow="false" CornerRadius="10" BackgroundColor="#6DCAD8" Padding="3" Margin="0" BorderColor="#6DCAD8">
+       <Frame HasShadow="false" Padding="0" Margin="0" BorderColor="#6DCAD8" HeightRequest="140" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="10">
+        <StackLayout HeightRequest="138" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center" Orientation="Vertical" Margin="5" Padding="5">
+            <Label HorizontalTextAlignment="Center" FontSize="Medium" Margin="5" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="TAPWorkflow" TextColor="Black"/>
+                        <Span Text="Automation" TextColor="#6DCAD8"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Margin="0,5" Text="Do you really want to logout?" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"  FontSize="Small" TextColor="Black"/>
+            <Grid Margin="0" Padding="0">
+                <Button Text="Yes" Grid.Row="0" Command="{Binding YesCommand,Mode=TwoWay}" Grid.Column="0" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black"/>
+                <Button Text="No" Grid.Row="0" Command="{Binding NoCommand,Mode=TwoWay}" Grid.Column="1" HorizontalOptions="Center" BackgroundColor="Transparent"  TextColor="Black"/>
+            </Grid>
+        </StackLayout>
+     </Frame>
+    </Frame>
+    <ContentView
+          AbsoluteLayout.LayoutFlags="PositionProportional"
+          AbsoluteLayout.LayoutBounds="1, 0, -1, -1">
+        <ContentView.GestureRecognizers>
+          <TapGestureRecognizer />
+        </ContentView.GestureRecognizers>
+            <Image HeightRequest="30" Source="" WidthRequest="30"/>
+      </ContentView>
+    </AbsoluteLayout>
+</pages:PopupPage>

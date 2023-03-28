@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "244914488002",
+    "project_id": "firstxamarinproject-f019e",
+    "storage_bucket": "firstxamarinproject-f019e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244914488002:android:5047dc89c7c1b455c3b15b",
+        "android_client_info": {
+          "package_name": "com.companyname.firstxamarinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244914488002-84qlte8ipk0t7b6merfn47a31r19sl3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-QTvAibcUp44EepHdxS2A1QFg671a0cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244914488002-84qlte8ipk0t7b6merfn47a31r19sl3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

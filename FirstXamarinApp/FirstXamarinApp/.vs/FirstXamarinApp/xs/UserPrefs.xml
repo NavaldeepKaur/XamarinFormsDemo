@@ -1,0 +1,56 @@
+﻿<Properties>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewModels/DashBoardViewModel.cs">
+    <Files>
+      <File FileName="Views/DashBoardView.xaml" Line="33" Column="35" />
+      <File FileName="Views/DashBoardView.xaml.cs" Line="1" Column="1" />
+      <File FileName="ViewModels/DashBoardViewModel.cs" Line="429" Column="1" />
+      <File FileName="ViewModels/PopUp/LogoutPopupViewModel.cs" Line="31" Column="55" />
+      <File FileName="Views/Popup/LogoutPopupView.xaml" Line="1" Column="1" />
+      <File FileName="Rendering/Checkbox.cs" Line="1" Column="1" />
+      <File FileName="BasicUtils/BaseNotifyPropertyChanged.cs" Line="1" Column="1" />
+      <File FileName="BasicUtils/Settings.cs" Line="1" Column="1" />
+      <File FileName="BasicUtils/StringsMessages.cs" Line="1" Column="1" />
+      <File FileName="Helpers/GetRestSharpServiceHandler.cs" Line="1" Column="1" />
+      <File FileName="Interfaces/ICloseApplication.cs" Line="1" Column="1" />
+      <File FileName="Interfaces/ServiceResponse.cs" Line="1" Column="1" />
+      <File FileName="Models/DashboardModel.cs" Line="1" Column="1" />
+      <File FileName="Models/LoginResultModel.cs" Line="1" Column="1" />
+      <File FileName="Views/Popup/LogoutPopupView.xaml.cs" Line="1" Column="1" />
+      <File FileName="Models/InputModels/LoginInputModel.cs" Line="1" Column="1" />
+      <File FileName="ViewModels/BaseViewModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FirstXamarinApp" expanded="True">
+            <Node name="FirstXamarinApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="API" expanded="True" />
+              <Node name="BasicUtils" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="InputModels" expanded="True" />
+              </Node>
+              <Node name="Rendering" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="PopUp" expanded="True" />
+                <Node name="DashBoardViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Popup" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
