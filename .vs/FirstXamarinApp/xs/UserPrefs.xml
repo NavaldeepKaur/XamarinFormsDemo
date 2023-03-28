@@ -1,0 +1,118 @@
+﻿<Properties StartupConfiguration="{F100BBE0-DCA9-49EC-88A2-6A4ECCD04A6F}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.galaxy_nexus_-_api_33" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects" />
+  </MultiItemStartupConfigurations>
+  <Debugger.DebugSourceFolders>
+    <String>/Users/navaldeepkaur/Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/mono/mono/6dd9def57ce969ca04a0ecd9ef72c0a8f069112d</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FirstXamarinApp/FirstXamarinApp/Views/DashBoardView.xaml">
+    <Files>
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Views/AboutPage.xaml.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Views/AboutPage.xaml" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/GettingStarted.txt" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/App.xaml" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/App.xaml.cs" Line="9" Column="3" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/AppShell.xaml" Line="82" Column="39" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/AppShell.xaml.cs" Line="24" Column="57" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Views/LoginPage.xaml.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Views/LoginPage.xaml" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Views/LoginPageView.xaml.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/ViewModels/LoginViewModel.cs" Line="21" Column="64" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/ViewModels/LoginPageViewModel.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/API/LoginAPI.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/BasicUtils/BaseNotifyPropertyChanged.cs" Line="17" Column="1" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/BasicUtils/Settings.cs" Line="1" Column="1" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/BasicUtils/StringsMessages.cs" Line="1" Column="1" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Models/Item.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Views/DashBoardView.xaml.cs" Line="21" Column="18" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Views/DashBoardView.xaml" Line="107" Column="151" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Interfaces/ICloseApplication.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Interfaces/ServiceResponse.cs" />
+      <File FileName="../../.nuget/packages/xam.plugins.settings/3.1.1/readme.txt" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Helpers/GetRestSharpServiceHandler.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Helpers/PostMultiFormDataServiceHandler.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Helpers/PostRestSharpServiceHandler.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Helpers/PrintLogDetails.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/ViewModels/DashBoardViewModel.cs" Line="410" Column="1" />
+      <File FileName="../../.nuget/packages/rg.plugins.popup/2.1.0/readme.txt" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Rendering/Checkbox.cs" Line="6" Column="26" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Rendering/CustomEntry.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Rendering/InfiniteListView.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Services/IDataStore.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Services/MockDataStore.cs" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Models/AllRecordModel.cs" Line="9" Column="44" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.Android/MainActivity.cs" Line="25" Column="45" />
+      <File FileName="../../.nuget/packages/xamarin.forms/5.0.0.2196/buildTransitive/Xamarin.Forms.targets" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.iOS/Entitlements.plist" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.Android/obj/Debug/AndroidManifest.xml" Line="21" Column="1" />
+      <File FileName="../../../../Applications/Visual Studio.app/Contents/MonoBundle/MSBuild/Current/bin/Microsoft.Common.CurrentVersion.targets" Line="2219" Column="34" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.Android/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="../../.nuget/packages/plugin.firebasepushnotification/3.4.35/readme.txt" Line="1" Column="1" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.Android/Application.cs" Line="5" Column="3" />
+      <File FileName="../../.nuget/packages/plugin.firebasepushnotification/3.3.10/readme.txt" Line="5" Column="54" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.Android/google-services.json" Line="10" Column="66" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.iOS/Info.plist" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp.Android/Properties/AndroidManifest.xml" Line="7" Column="12" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Views/popup/LogoutPopupView.xaml" Line="7" Column="36" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/ViewModels/PopUp/LogoutPopupViewModel.cs" Line="1" Column="1" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Views/Popup/LogoutPopupView.xaml.cs" Line="13" Column="1" />
+      <File FileName="FirstXamarinApp/FirstXamarinApp/Models/DashboardModel.cs" Line="1" Column="1" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/mono/mono/6dd9def57ce969ca04a0ecd9ef72c0a8f069112d/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs" Line="157" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FirstXamarinApp" expanded="True">
+            <Node name="FirstXamarinApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="BasicUtils" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Rendering" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="PopUp" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Popup" expanded="True" />
+                <Node name="DashBoardView.xaml" selected="True" />
+              </Node>
+            </Node>
+            <Node name="FirstXamarinApp.Android" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="mipmap-anydpi-v26" expanded="True" />
+                <Node name="mipmap-hdpi" expanded="True" />
+                <Node name="mipmap-xhdpi" expanded="True" />
+                <Node name="mipmap-xxhdpi" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="FirstXamarinApp.iOS" expanded="True">
+              <Node name="Packages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.0.0" />
+  <MonoDevelop.Ide.ItemProperties.FirstXamarinApp.Android PreferredExecutionTarget="Android.galaxy_nexus_-_api_33" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/navaldeepkaur/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/AppShell.xaml.cs" relfile="FirstXamarinApp/FirstXamarinApp/AppShell.xaml.cs" line="21" column="1" />
+      <Breakpoint enabled="false" file="/Users/navaldeepkaur/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/App.xaml.cs" relfile="FirstXamarinApp/FirstXamarinApp/App.xaml.cs" line="39" column="1" />
+      <Breakpoint enabled="false" file="/Users/navaldeepkaur/Projects/FirstXamarinApp/FirstXamarinApp/FirstXamarinApp/App.xaml.cs" relfile="FirstXamarinApp/FirstXamarinApp/App.xaml.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.FirstXamarinApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2225A202-C92F-4E3B-A471-E94177C26A31" />
+</Properties>
